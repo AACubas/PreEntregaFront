@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookielicious - Home</title>
+    
+    <!-- Enlace de las fuentes de Google -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="main-header">
+        <a href="#inicio" class="logo-link">
+            <img src="imagenes/Logo.png" alt="Logo de Cookielicious" class="nav-logo-img">
+        </a>
+
+        <nav class="main-nav">
+            <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="pages/cookies.html">Nuestras Cookies</a></li>
+            <li><a href="pages/contacto.html">Contacto</a></li>
+        </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="welcome-section">
+            <h1>Bienvenidos</h1>
+            <p>Somos una empresa familiar que se esfuerza por hacer de tus días un poco 
+               más dulce, una cookie a la vez. No dudes en contactarnos para saber de nuestras
+               opciones de envío y nuestras promociones. 
+            </p>
+        </section>
+
+        <!-- Video -->
+        <section class="video-section">
+            <h2 class="video-title">Nosotros</h2>
+            <div class="video-container">
+                <video controls width="100%" class="promo-video">
+                    <source src="videos/Publicidad.mp4" type="video/mp4">
+                    <track src="videos/subtitulos.vtt" kind="subtitles" srclang="es" label="Español" default>
+                    Tu navegador no soporta la reproducción de este video.
+                </video>
+            </div>
+        </section>
+
+        <section class="reviews-section">
+            <h2 class="reviews-title">Lee a nuestros clientes</h2>
+            
+            <div class="reviews-container">
+                <!-- 5 Estrellas -->
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <h3>Oscar A.</h3>
+                    <p class="review-text">"La cookie de Red Velvet es de otro mundo. Suave, esponjosa y con la cantidad justa de chispas. ¡Súper recomendadas!"</p>
+                </div>
+
+                <!-- 4 Estrellas -->
+                <div class="review-card">
+                    <div class="stars">★★★★<span class="star-empty">★</span></div>
+                    <h3>Mariana A.</h3>
+                    <p class="review-text">"Excelente atención y las galletas de coco te vuelan la cabeza."</p>
+                </div>
+
+                <!-- 5 Estrellas -->
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <h3>Guillermo A.</h3>
+                    <p class="review-text">"Hice un pedido para un cumpleaños y a todos les encantó la limón. Una delicia total, volveré a comprar."</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <p>&copy; 2026 Cookielicious Bakery Artesanal. Todos los derechos reservados.</p>
+    </footer>
+    
+</body>
+</html>
